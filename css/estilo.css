@@ -1,0 +1,52 @@
+body,
+html {
+    background-image: url(../imagenes/fondologin.jfif);
+    height: 100%;  
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+}
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #ca5787;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    
+}
+
+.login_btn {
+    width: 100%;
+    margin-top: 10px;
+    background: #fa74be ;
+    color: white;
+}
+.login_btn:focus {
+    box-shadow: none;
+    outline: 0px ;
+}
+.login_container {
+    padding: 0 2rem;
+}
+
+
