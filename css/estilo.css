@@ -1,9 +1,9 @@
 body,
-html {
-    background-image: url(../imagenes/fondologin.jfif);
+html, #wrapper {
+    background-image: url(../imagenes/fondologin.jfif) ;
     height: 100%;  
     background-size: 100% 100%;  
-    background-repeat: no-repeat;
+
 }
 .user_card {
     height: 400px;
@@ -49,4 +49,53 @@ html {
     padding: 0 2rem;
 }
 
+#tabla{
+    background: #ca5787;
+}
 
+th{
+    color: #ffffff;
+}
+
+#segundo{
+    color: black;
+}
+
+#boton{
+    background-color:#fa74be;
+}
+
+#centro{
+    color: #ffffff;
+    margin: auto;
+}
+
+
+#login{
+    background-color: #3d202c;
+}
+#iconologin{
+    height: 70px;
+    width: 70px;
+ 
+    border-radius: 50%;
+    background: #ffffff;
+    
+    margin-left: 50px;
+    text-align: center;
+}
+#formlabel{
+    width: 20px;
+}
+#estudios{
+    height: 40px;
+}
+#aviso{
+    color: red ;
+}
+@media (min-width: 768px) {
+    #derecha {
+      text-align: right;
+      margin: auto;
+    }
+  }
